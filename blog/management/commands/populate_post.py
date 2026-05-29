@@ -14,7 +14,7 @@ class Command(BaseCommand):
         Post.objects.all().delete()
 
         titles = [
-            "The Fashion Design1",
+            "The Fashion Design",
             "Sustainable Fashion: Designing for a Greener Future",
             "The Evolution of Fashion Through the Decades",
             "Minimalism in Fashion Design",
@@ -60,26 +60,26 @@ class Command(BaseCommand):
         ]
 
         img_urls = [
-            "https://picsum.photos/id/1/800/400",
-            "https://picsum.photos/id/2/800/400",
-            "https://picsum.photos/id/3/800/400",
-            "https://picsum.photos/id/4/800/400",
-            "https://picsum.photos/id/5/800/400",
-            "https://picsum.photos/id/6/800/400",
-            "https://picsum.photos/id/7/800/400",
-            "https://picsum.photos/id/8/800/400",
-            "https://picsum.photos/id/9/800/400",
-            "https://picsum.photos/id/10/800/400",
-            "https://picsum.photos/id/11/800/400",
-            "https://picsum.photos/id/12/800/400",
-            "https://picsum.photos/id/13/800/400",
-            "https://picsum.photos/id/14/800/400",
-            "https://picsum.photos/id/15/800/400",
-            "https://picsum.photos/id/16/800/400",
-            "https://picsum.photos/id/17/800/400",
-            "https://picsum.photos/id/18/800/400",
-            "https://picsum.photos/id/19/800/400",
-            "https://picsum.photos/id/20/800/400",
+            "https://loremflickr.com/800/400/fashion,design?lock=1",
+            "https://loremflickr.com/800/400/sustainable,fashion?lock=2",
+            "https://loremflickr.com/800/400/vintage,fashion?lock=3",
+            "https://loremflickr.com/800/400/minimalist,fashion?lock=4",
+            "https://loremflickr.com/800/400/streetwear,fashion?lock=5",
+            "https://loremflickr.com/800/400/technology,fashion?lock=6",
+            "https://loremflickr.com/800/400/textile,fashion?lock=7",
+            "https://loremflickr.com/800/400/fashion,illustration?lock=8",
+            "https://loremflickr.com/800/400/genderneutral,fashion?lock=9",
+            "https://loremflickr.com/800/400/luxury,fashion?lock=10",
+            "https://loremflickr.com/800/400/colorful,fashion?lock=11",
+            "https://loremflickr.com/800/400/fashion,branding?lock=12",
+            "https://loremflickr.com/800/400/socialmedia,fashion?lock=13",
+            "https://loremflickr.com/800/400/seasonal,fashion?lock=14",
+            "https://loremflickr.com/800/400/hautecouture,fashion?lock=15",
+            "https://loremflickr.com/800/400/cultural,fashion?lock=16",
+            "https://loremflickr.com/800/400/upcycling,fashion?lock=17",
+            "https://loremflickr.com/800/400/fashion,studio?lock=18",
+            "https://loremflickr.com/800/400/fashion,accessories?lock=19",
+            "https://loremflickr.com/800/400/digital,fashion?lock=20",
             
         ]
 

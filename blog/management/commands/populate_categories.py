@@ -12,7 +12,28 @@ class Command(BaseCommand):
         # delect existing data
         Category.objects.all().delete()
 
-        categories = ['Design', 'Art', 'Daywear', 'Sheath', 'Wrap', 'Maxi', 'blazer', 'function']
+        categories = [
+            "Fashion Design",
+            "Sustainable Fashion",
+            "Vintage Fashion",
+            "Minimalist Fashion",
+            "Streetwear Fashion",
+            "Technology Fashion",
+            "Textile Fashion",
+            "Fashion Illustration",
+            "Gender Neutral Fashion",
+            "Luxury Fashion",
+            "Color Psychology Fashion",
+            "Fashion Branding",
+            "Social Media Fashion",
+            "Seasonal Fashion",
+            "Haute Couture",
+            "Cultural Fashion",
+            "Upcycling Fashion",
+            "Fashion Studio",
+            "Fashion Accessories",
+            "Digital Fashion",
+            ]
 
         for category_name in categories:
             Category.objects.create(name = category_name)
