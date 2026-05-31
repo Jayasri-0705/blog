@@ -26,11 +26,10 @@ SECRET_KEY = 'django-insecure-0@&(gwaabqn%xi#9tt+mgn=s=mtv7d3e@o8(y=8&$5c6))2#0b
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '127.0.0.1',
-    'localhost',
-    'blog-15zd.onrender.com',
+    "127.0.0.1",
+    "localhost",
+    ".onrender.com",
 ]
-
 
 # Application definition
 
