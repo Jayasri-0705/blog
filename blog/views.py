@@ -20,11 +20,15 @@ def index(request):
     blog_title = "Latest Posts"
 
     # getting data from post model
-   query = request.GET.get('q')
-   if query:
-       all_posts = Post.objects.filter(title__icontains=query)
-   else:
-       all_posts = Post.objects.all()
+query = request.GET.get('q')
+if query:
+    all_posts = Post.objects.filter(
+        title__icontains=query
+    ) | Post.objects.filter(
+        category__name__icontains=query
+    )
+else:
+    all_posts = Post.objects.all()
 
     #paginator
     paginator = Paginator(all_posts, 5)
