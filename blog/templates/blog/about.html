@@ -1,15 +1,14 @@
 {% extends 'blog/base.html' %}
-
- {% block content %}
-    <div class="container-fluid ">
+{% block content %}
+    <div class="container py-4">
         <h3>About Us</h3>
-        <div class="d-flex gap-3 justify-content-center mt-5">
-            <img src="https://picsum.photos/300/300" alt="">
-            <div class="content">
+        <div class="row mt-4">
+            <div class="col-12 col-md-4 mb-3">
+                <img src="https://picsum.photos/300/300" class="img-fluid rounded w-100" alt="">
+            </div>
+            <div class="col-12 col-md-8">
                 {{about_content}}
             </div>
-            
         </div>
     </div>
-{% endblock %}      
-    
+{% endblock %}
