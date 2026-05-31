@@ -28,7 +28,7 @@ DEBUG = False
 ALLOWED_HOSTS = [
     '127.0.0.1',
     'localhost',
-    'blog-1c96.onrender.com',
+    'blog-15zd.onrender.com',
 ]
 
 
