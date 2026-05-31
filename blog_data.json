@@ -1,0 +1,377 @@
+[
+{
+  "model": "blog.category",
+  "pk": 185,
+  "fields": {
+    "name": "Fashion Design"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 186,
+  "fields": {
+    "name": "Sustainable Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 187,
+  "fields": {
+    "name": "Vintage Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 188,
+  "fields": {
+    "name": "Minimalist Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 189,
+  "fields": {
+    "name": "Streetwear Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 190,
+  "fields": {
+    "name": "Technology Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 191,
+  "fields": {
+    "name": "Textile Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 192,
+  "fields": {
+    "name": "Fashion Illustration"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 193,
+  "fields": {
+    "name": "Gender Neutral Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 194,
+  "fields": {
+    "name": "Luxury Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 195,
+  "fields": {
+    "name": "Color Psychology Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 196,
+  "fields": {
+    "name": "Fashion Branding"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 197,
+  "fields": {
+    "name": "Social Media Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 198,
+  "fields": {
+    "name": "Seasonal Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 199,
+  "fields": {
+    "name": "Haute Couture"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 200,
+  "fields": {
+    "name": "Cultural Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 201,
+  "fields": {
+    "name": "Upcycling Fashion"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 202,
+  "fields": {
+    "name": "Fashion Studio"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 203,
+  "fields": {
+    "name": "Fashion Accessories"
+  }
+},
+{
+  "model": "blog.category",
+  "pk": 204,
+  "fields": {
+    "name": "Digital Fashion"
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 400,
+  "fields": {
+    "title": "The Fashion Design",
+    "content": "Fashion design is the art of creating clothing and accessories that reflect style, culture, and functionality. Designers combine creativity with technical skills to produce garments that meet consumer needs. This field involves sketching, fabric selection, pattern making, and production. Fashion design constantly evolves with trends, making it a dynamic and innovative industry.",
+    "img_url": "https://loremflickr.com/800/400/fashion,design?lock=1",
+    "created_at": "2026-05-28T09:39:40.645Z",
+    "slug": "the-fashion-design",
+    "category": 185
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 401,
+  "fields": {
+    "title": "Sustainable Fashion: Designing for a Greener Future",
+    "content": "Sustainable fashion focuses on reducing environmental damage caused by clothing production. Designers use eco-friendly fabrics, recycling techniques, and ethical labor practices. This approach encourages long-lasting garments instead of disposable fashion. By promoting awareness and responsibility, sustainable fashion helps protect natural resources and supports a healthier planet for future generations.",
+    "img_url": "https://loremflickr.com/800/400/sustainable,fashion?lock=2",
+    "created_at": "2026-05-28T09:39:40.657Z",
+    "slug": "sustainable-fashion-designing-for-a-greener-future",
+    "category": 202
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 402,
+  "fields": {
+    "title": "The Evolution of Fashion Through the Decades",
+    "content": "Fashion has changed significantly across different decades, reflecting social, political, and cultural shifts. From the elegance of the 1920s to the bold styles of the 1980s and modern minimalism, each era has unique characteristics. Designers draw inspiration from past trends while adapting them to current preferences, keeping fashion both nostalgic and innovative.",
+    "img_url": "https://loremflickr.com/800/400/vintage,fashion?lock=3",
+    "created_at": "2026-05-28T09:39:40.664Z",
+    "slug": "the-evolution-of-fashion-through-the-decades",
+    "category": 204
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 403,
+  "fields": {
+    "title": "Minimalism in Fashion Design",
+    "content": "Minimalism in fashion emphasizes simplicity, clean lines, and neutral colors. Designers focus on creating versatile and timeless pieces that avoid unnecessary details. This approach promotes sustainability by encouraging fewer but higher-quality purchases. Minimalist fashion appeals to individuals who prefer elegance, functionality, and a clutter-free wardrobe.",
+    "img_url": "https://loremflickr.com/800/400/minimalist,fashion?lock=4",
+    "created_at": "2026-05-28T09:39:40.674Z",
+    "slug": "minimalism-in-fashion-design",
+    "category": 188
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 404,
+  "fields": {
+    "title": "Streetwear Culture and Its Influence on Modern Fashion",
+    "content": "Streetwear originated from urban youth culture and has become a major influence in global fashion. It combines comfort with bold designs, including graphic prints and oversized silhouettes. Today, even luxury brands incorporate streetwear elements, showing how cultural expression and everyday style have shaped modern fashion trends.",
+    "img_url": "https://loremflickr.com/800/400/streetwear,fashion?lock=5",
+    "created_at": "2026-05-28T09:39:40.680Z",
+    "slug": "streetwear-culture-and-its-influence-on-modern-fashion",
+    "category": 197
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 405,
+  "fields": {
+    "title": "The Role of Technology in Fashion Design",
+    "content": "Technology plays a crucial role in modern fashion design by improving efficiency and creativity. Tools like computer-aided design (CAD), 3D modeling, and virtual fitting allow designers to experiment easily. Technology also supports online shopping and personalized recommendations, enhancing customer experience and transforming the fashion industry.",
+    "img_url": "https://loremflickr.com/800/400/technology,fashion?lock=6",
+    "created_at": "2026-05-28T09:39:40.688Z",
+    "slug": "the-role-of-technology-in-fashion-design",
+    "category": 194
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 406,
+  "fields": {
+    "title": "Traditional Textiles in Contemporary Fashion",
+    "content": "Traditional textiles are being reintroduced into modern fashion to preserve cultural heritage. Designers combine traditional fabrics with contemporary styles to create unique garments. This fusion not only promotes craftsmanship but also brings global recognition to local artisans, helping sustain traditional textile industries.",
+    "img_url": "https://loremflickr.com/800/400/textile,fashion?lock=7",
+    "created_at": "2026-05-28T09:39:40.696Z",
+    "slug": "traditional-textiles-in-contemporary-fashion",
+    "category": 200
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 407,
+  "fields": {
+    "title": "Fashion Illustration: Bringing Ideas to Life",
+    "content": "Fashion illustration is an essential part of the design process, where designers sketch their ideas before production. These drawings help visualize garments, colors, and details. Illustrations allow designers to communicate concepts clearly and make changes easily, ensuring better execution of the final product.",
+    "img_url": "https://loremflickr.com/800/400/fashion,illustration?lock=8",
+    "created_at": "2026-05-28T09:39:40.704Z",
+    "slug": "fashion-illustration-bringing-ideas-to-life",
+    "category": 199
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 408,
+  "fields": {
+    "title": "Gender-Neutral Fashion: Breaking Stereotypes",
+    "content": "Gender-neutral fashion removes the distinction between men’s and women’s clothing. Designers create outfits that focus on comfort, style, and inclusivity rather than gender norms. This movement promotes equality and allows individuals to express themselves freely without societal restrictions.",
+    "img_url": "https://loremflickr.com/800/400/genderneutral,fashion?lock=9",
+    "created_at": "2026-05-28T09:39:40.710Z",
+    "slug": "gender-neutral-fashion-breaking-stereotypes",
+    "category": 201
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 409,
+  "fields": {
+    "title": "Luxury Fashion vs Fast Fashion",
+    "content": "Luxury fashion focuses on quality, exclusivity, and craftsmanship, while fast fashion emphasizes quick production and affordability. Although fast fashion makes trends accessible, it raises concerns about sustainability and ethics. Designers must find a balance between innovation, quality, and responsible production practices.",
+    "img_url": "https://loremflickr.com/800/400/luxury,fashion?lock=10",
+    "created_at": "2026-05-28T09:39:40.730Z",
+    "slug": "luxury-fashion-vs-fast-fashion",
+    "category": 192
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 410,
+  "fields": {
+    "title": "The Psychology of Colors in Fashion Design",
+    "content": "Colors influence emotions and perceptions in fashion. Designers use color psychology to create moods and attract attention. For example, bright colors may represent energy, while neutral tones convey sophistication. Understanding color effects helps designers create impactful and meaningful designs.",
+    "img_url": "https://loremflickr.com/800/400/colorful,fashion?lock=11",
+    "created_at": "2026-05-28T09:39:40.734Z",
+    "slug": "the-psychology-of-colors-in-fashion-design",
+    "category": 203
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 411,
+  "fields": {
+    "title": "Fashion Branding and Identity",
+    "content": "Fashion branding is essential for creating a unique identity in a competitive market. Designers use logos, storytelling, and visual elements to build strong brand recognition. A well-defined brand helps connect with customers emotionally and ensures long-term success.",
+    "img_url": "https://loremflickr.com/800/400/fashion,branding?lock=12",
+    "created_at": "2026-05-28T09:39:40.739Z",
+    "slug": "fashion-branding-and-identity",
+    "category": 200
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 412,
+  "fields": {
+    "title": "The Impact of Social Media on Fashion Trends",
+    "content": "Social media platforms have revolutionized the fashion industry by spreading trends quickly. Influencers and designers showcase styles to global audiences instantly. This digital exposure increases competition and pushes designers to innovate constantly to stay relevant.",
+    "img_url": "https://loremflickr.com/800/400/socialmedia,fashion?lock=13",
+    "created_at": "2026-05-28T09:39:40.743Z",
+    "slug": "the-impact-of-social-media-on-fashion-trends",
+    "category": 200
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 413,
+  "fields": {
+    "title": "Seasonal Fashion Trends: Spring/Summer vs Fall/Winter",
+    "content": "Fashion trends vary by season, influencing fabrics, colors, and designs. Spring and summer collections focus on light fabrics and bright colors, while fall and winter emphasize warmth and darker tones. Designers plan collections according to seasonal demands and consumer preferences.",
+    "img_url": "https://loremflickr.com/800/400/seasonal,fashion?lock=14",
+    "created_at": "2026-05-28T09:39:40.748Z",
+    "slug": "seasonal-fashion-trends-springsummer-vs-fallwinter",
+    "category": 203
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 414,
+  "fields": {
+    "title": "Haute Couture: The Art of High Fashion",
+    "content": "Haute couture represents the highest level of fashion design, featuring custom-made garments crafted with precision. Designers focus on intricate details, luxurious fabrics, and exclusivity. These designs showcase creativity and craftsmanship, setting standards for the fashion industry.",
+    "img_url": "https://loremflickr.com/800/400/hautecouture,fashion?lock=15",
+    "created_at": "2026-05-28T09:39:40.753Z",
+    "slug": "haute-couture-the-art-of-high-fashion",
+    "category": 200
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 415,
+  "fields": {
+    "title": "Fashion and Cultural Identity",
+    "content": "Fashion reflects cultural identity by incorporating traditional styles, patterns, and symbols. Designers use fashion to celebrate heritage and express diversity. This connection between fashion and culture helps preserve traditions while adapting them to modern styles.",
+    "img_url": "https://loremflickr.com/800/400/cultural,fashion?lock=16",
+    "created_at": "2026-05-28T09:39:40.757Z",
+    "slug": "fashion-and-cultural-identity",
+    "category": 203
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 416,
+  "fields": {
+    "title": "Upcycling in Fashion Design",
+    "content": "The fashion design process includes idea development, sketching, fabric selection, pattern making, and final production. Designers follow a structured approach to turn concepts into finished garments. Each step is important to ensure quality, functionality, and style.",
+    "img_url": "https://loremflickr.com/800/400/upcycling,fashion?lock=17",
+    "created_at": "2026-05-28T09:39:40.762Z",
+    "slug": "upcycling-in-fashion-design",
+    "category": 193
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 417,
+  "fields": {
+    "title": "Fashion Design Process: From Concept to Creation",
+    "content": "Accessories such as jewelry, bags, and shoes play an important role in enhancing outfits. Designers use accessories to add personality and detail to fashion. They help complete a look and make it more attractive and expressive.",
+    "img_url": "https://loremflickr.com/800/400/fashion,studio?lock=18",
+    "created_at": "2026-05-28T09:39:40.766Z",
+    "slug": "fashion-design-process-from-concept-to-creation",
+    "category": 190
+  }
+},
+{
+  "model": "blog.post",
+  "pk": 418,
+  "fields": {
+    "title": "Accessories in Fashion: Completing the Look",
+    "content": "Digital fashion is an emerging trend where clothing is designed and worn virtually. It is used in gaming, social media, and virtual environments. Designers create digital outfits that reduce physical waste while offering new creative possibilities in the fashion industry.",
+    "img_url": "https://loremflickr.com/800/400/fashion,accessories?lock=19",
+    "created_at": "2026-05-28T09:39:40.770Z",
+    "slug": "accessories-in-fashion-completing-the-look",
+    "category": 188
+  }
+},
+{
+  "model": "blog.aboutus",
+  "pk": 1,
+  "fields": {
+    "content": "Welcome to fashion website! We are dedicated to providing high-quality products and excellent customer service. Our team consists of experienced professionals who are passionate about delivering the best solutions to our customers. With a focus on innovation and integrity, we strive to exceed expectations in every aspect of our business. Our company was founded on the principles of honesty, reliability, and transparency. We believe in building strong relationships with our customers and partners based on trust and mutual respect. By listening to our customers' needs and adapting to changing market trends, we continue to evolve and improve our offerings. At our core, we are driven by a commitment to excellence and continuous improvement. We invest in research and development to stay ahead of the curve and bring cutting-edge solutions to our customers. Our dedication to quality ensures that every product we deliver meets the highest standards of performance and reliability. We are proud of our track record of success and the positive impact we have made in the industry. But we are not content to rest on our laurels. We are always looking for new opportunities to grow and expand our reach, while staying true to our values and vision. Thank you for choosing us as your trusted partner. We look forward to serving you and exceeding your expectations for many years to come."
+  }
+}
+]
